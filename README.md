@@ -1,3 +1,15 @@
+## Unix
+**注意：本项目自动配置会将原有的vim配置进行备份（~/.vimrc.bak）**
+
+
+```bash
+git clone https://github.com/nagisb2/Auto-configuration-vim.git
+cd Auto-configuration-vim
+sh init.sh
+```
+
+安装完成后退出 `vim` ，即配置完毕。
+
 ## 介绍
 
 [![repo](https://badgen.net/badge/github/Auto-configuration-vim?icon&label=GitHub&color=green)](https://github.com/GavinSun0921/Auto-configuration-vim)
@@ -86,18 +98,6 @@ autocmd FileType python nnoremap <buffer> <C-i> :w <RETURN> :!python % <RETURN>
 
 - 更多功能和配置详见 `coc.nvim` 插件项目说明。
 
-## 使用方式
 
-**注意：本项目自动配置会将原有的vim配置进行备份（~/.vimrc.bak）**
-
-#### Unix
-
-```bash
-git clone https://github.com/GavinSun0921/Auto-configuration-vim.git
-cd Auto-configuration-vim
-sh init.sh
-```
-
-安装完成后退出 `vim` ，即配置完毕。
 
 <div align=center><img src="img\PlugInstallStatus.png" alt="mainWindow" width="700px" /></div>
